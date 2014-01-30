@@ -1,24 +1,32 @@
 <h1>Stylify</h1>
 
-<div class="styling-options immutable">
+<h3> This website allows you to style various elements of the page using the styling options in the box below. </h3> 
 
+<div class="styling-options immutable">
+  <h2 class="immutable">Styling Options</h2>
+  <div class="title-styling immutable">
+    <label> Title </label>
+    <input id="title-name" value="Stylify"></input>
+  </div>
   <div class="font-styling immutable">
 
     <div class="options-group immutable">
-      <label> Font Size (in pixels)</label>
-      <input id="font-size"></input> px
+      <label> Font Size: </label> 
+      <input id="font-size"></input> px (accepts 10-35 px)
     </div>
 
-    <div class="options-group">
-      <label>Font Family</label>
+    <div class="options-group immutable">
+      <label>Font Family</label>:
       <select id="font-family">
         <option value="Helvetica"> Helvetica</option>
-        <option value="Comic Sans MS">Comic Sans MS</option>
+        <option value="Arial">Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Times New Roman">Times New Roman</option>
       </select>
     </div>
   </div>
 
-  <div class="options-group">
+  <div class="options-group immutable">
     <div class="bg-styling immutable">
       <label> Background Color</label>
       <select id="bg">
@@ -30,8 +38,14 @@
       </select>
     </div>
   </div>
+
+  <div class="paragraphs-styling immutable">
+  You can edit the paragraphs below by using this textbox. When you make any changes within the box below, they will immediately be reflected underneath.
+    <textarea id="edited-paragraphs" class="immutable"></textarea>
+  </div>
 </div>
 
+<!-- Hipster Ipsum -->
 <div class="example-text">
 <p>
 Nulla selfies aesthetic scenester quis organic. Art party DIY Austin commodo polaroid asymmetrical dreamcatcher wayfarers, ethnic ullamco. Anim ethnic shabby chic fap asymmetrical. Enim mollit flannel, asymmetrical Banksy wolf pour-over Etsy labore polaroid. Locavore hoodie dolor, quis fashion axe umami Neutra. Excepteur before they sold out Etsy skateboard vero, Brooklyn fingerstache readymade anim ea Wes Anderson Pinterest flannel dolor. Mustache dreamcatcher whatever, tempor dolor Wes Anderson Truffaut bespoke.

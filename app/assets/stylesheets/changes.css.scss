@@ -4,13 +4,34 @@
 
 body{
 	font-family: Helvetica;
+	background-color: #6785CC;
+	color: navy;   
 }
 
+h1, h2, h3{
+	text-align: center; 
+}
 h1{
-	text-align: center;
 	font-size: 40px; 
 }
 
 .styling-options{
-	border: solid 2px black; 
+	border: solid 2px #3D62B8;
+	background-color: #66B8CC; 
+	width: 50%; 
+	margin: 0 auto; 
+	text-align: center; 
+}
+
+#font-size{
+	width: 20px; 
+}
+
+label{
+	font-weight: bold; 
+}
+
+textarea{
+	width: 90%; 
+	height: 500px; 
 }
