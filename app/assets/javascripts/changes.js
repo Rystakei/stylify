@@ -40,7 +40,7 @@ $(document).ready(function() {
 	//In the text below.
 
 	$('#edited-paragraphs').keyup(function(){
-		$('.example-text').text($(this).val());
+		$('.example-text').html($(this).val().replace(/\n/g, '<br>'));
 	});
 
 })
